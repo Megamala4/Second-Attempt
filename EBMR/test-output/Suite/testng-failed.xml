@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.EBMR_MPRMasteer.TC_2_WG_Initiator_Initiate">
+        <methods>
+          <include name="A"/>
+          <include name="URL_Load"/>
+        </methods>
+      </class> <!-- com.EBMR_MPRMasteer.TC_2_WG_Initiator_Initiate -->
+      <class name="com.EBMR_MPRMasteer.TC_1_DG_Approver_Approved">
+        <methods>
+          <include name="A"/>
+          <include name="URL_Load"/>
+        </methods>
+      </class> <!-- com.EBMR_MPRMasteer.TC_1_DG_Approver_Approved -->
+      <class name="com.EBMR_ProductDetailsMaster.TC_1_DG">
+        <methods>
+          <include name="URL_Load"/>
+          <include name="A"/>
+        </methods>
+      </class> <!-- com.EBMR_ProductDetailsMaster.TC_1_DG -->
+      <class name="com.EBMR_MPRMasteer.TC_1_DG_Initiator_Re_Initiation">
+        <methods>
+          <include name="A"/>
+          <include name="URL_Load"/>
+        </methods>
+      </class> <!-- com.EBMR_MPRMasteer.TC_1_DG_Initiator_Re_Initiation -->
+      <class name="com.EBMR_MPRMasteer.TC_2_WG_Initiator_Re_Initiate">
+        <methods>
+          <include name="URL_Load"/>
+          <include name="A"/>
+        </methods>
+      </class> <!-- com.EBMR_MPRMasteer.TC_2_WG_Initiator_Re_Initiate -->
+      <class name="com.EBMR_ProductDetailsMaster.TC_2_WG">
+        <methods>
+          <include name="A"/>
+          <include name="URL_Load"/>
+        </methods>
+      </class> <!-- com.EBMR_ProductDetailsMaster.TC_2_WG -->
+      <class name="com.EBMR_MPRMasteer.TC_1_DG_Approver_Return">
+        <methods>
+          <include name="A"/>
+          <include name="URL_Load"/>
+        </methods>
+      </class> <!-- com.EBMR_MPRMasteer.TC_1_DG_Approver_Return -->
+      <class name="com.EBMR_MPRMasteer.TC_2_WG_Approver_Return">
+        <methods>
+          <include name="URL_Load"/>
+          <include name="A"/>
+        </methods>
+      </class> <!-- com.EBMR_MPRMasteer.TC_2_WG_Approver_Return -->
+      <class name="com.EBMR_MPRMasteer.TC_2_WG_Approver_Approve">
+        <methods>
+          <include name="URL_Load"/>
+          <include name="A"/>
+        </methods>
+      </class> <!-- com.EBMR_MPRMasteer.TC_2_WG_Approver_Approve -->
+      <class name="com.EBMR_MPRMasteer.TC_1_DG_Initiator_Initiate">
+        <methods>
+          <include name="URL_Load"/>
+          <include name="A"/>
+        </methods>
+      </class> <!-- com.EBMR_MPRMasteer.TC_1_DG_Initiator_Initiate -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

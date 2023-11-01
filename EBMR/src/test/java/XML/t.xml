@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="Test">
+		<classes>
+		<class name="com.EBMR_ProductDetailsMaster.TC_1_DG"/>
+		<class name="com.EBMR_ProductDetailsMaster.TC_2_WG"/>
+         <class name="com.EBMR_MPRMasteer.TC_1_DG_Initiator_Initiate"/>
+         <class name="com.EBMR_MPRMasteer.TC_1_DG_Approver_Return"/>
+         <class name="com.EBMR_MPRMasteer.TC_1_DG_Initiator_Re_Initiation"/>
+         <class name="com.EBMR_MPRMasteer.TC_1_DG_Approver_Approved"/>
+         <class name="com.EBMR_MPRMasteer.TC_2_WG_Initiator_Initiate"/>
+         <class name="com.EBMR_MPRMasteer.TC_2_WG_Approver_Return"/>
+         <class name="com.EBMR_MPRMasteer.TC_2_WG_Initiator_Re_Initiate"/>
+         <class name="com.EBMR_MPRMasteer.TC_2_WG_Approver_Approve"/>         
+         <class name="com.EBMR_OtherMasters.TC_1_Orals_Initiator_Area"/>
+         <class name="com.EBMR_OtherMasters.TC_2_Orals_Initiator_Sop"/>
+         <class name="com.EBMR_OtherMasters.TC_3_Initiator_Abbrevations"/>
+         <class name="com.EBMR_OtherMasters.TC_Orals_Initiator_AreaEqipments"/>       
+         <class name="com.EBMR_ConfigurationMaster.TC_1_DG__Initiator_Material"/> 
+         <class name="com.EBMR_ConfigurationMaster.TC_A_WG_Materials_Initiate"/>
+         <class name="com.EBMR_ConfigurationMaster.TC_1_DG_Initiator_Processparameters_Initiate"/>
+         <class name="com.EBMR_ConfigurationMaster.TC_1_DG_Approver_Processparametrs_Return"/>
+         <class name="com.EBMR_ConfigurationMaster.TC_1_DG_Initiator_processparameters_ReInitiate"/>
+         <class name="com.EBMR_ConfigurationMaster.TC_1_DG_Approver_Processparameter_Approve"/>
+         <class name="com.EBMR_ConfigurationMaster.TC_2_WG_Initiator_Parameter_Initiate"/>
+         <class name="com.EBMR_ConfigurationMaster.TC_2_WG_Approver_Parameters_Return"/>
+         <class name="com.EBMR_ConfigurationMaster.TC_2_WG_Initiator_ProcessParameter_ReInitiate"/>
+         <class name="com.EBMR_ConfigurationMaster.TC_2_WG_Approver_Processparameter_Approve"/>
+         <class name="com.EBMR_ConfigurationMaster.TC_1_DG_Initiator_CheckList_Initiate"/>
+         <class name="com.EBMR_ConfigurationMaster.TC_1_DG_Approver_Checklist_Return"/>
+         <class name="com.EBMR_ConfigurationMaster.TC_1_Initiator_Checklist_ReInitiate"/>
+         <class name="com.EBMR_ConfigurationMaster.TC_1_Approver_Checklist_Approve"/>
+         <class name="com.EBMR_ConfigurationMaster.TC_2_WG_Initiator_Checklist_Initiate"/>
+         <class name="com.EBMR_ConfigurationMaster.TC_2_WG_Approver_Checkklist_Return"/>
+         <class name="com.EBMR_ConfigurationMaster.TC_2_WG_Initiator_Checklist_ReInitiate"/>
+         <class name="com.EBMR_ConfigurationMaster.TC_2_WG_Approver_Checklist_Approve"/>
+         <class name="com.EBMR_ConfigurationMaster.TC_1_DG_Initiator_Generalsafetyprecaution_Initiate"/>
+         <class name="com.EBMR_ConfigurationMaster.TC_1_DG_Approver_Genereal_Return"/>
+         <class name="com.EBMR_ConfigurationMaster.TC_1_DG_Initiator_Genereal_ReInitiate"/>
+         <class name="com.EBMR_ConfigurationMaster.TC_1_DG_Approver_General_Approve"/>
+         <class name="com.EBMR_ConfigurationMaster.TC_2_WG_Initiator_Genereal_Initiate"/>
+         <class name="com.EBMR_ConfigurationMaster.TC_2_WG_Approver_General_Return"/>
+         <class name="com.EBMR_ConfigurationMaster.TC_2_WG_Initiator_General_ReInitiate"/>
+         <class name="com.EBMR_ConfigurationMaster.TC_2_WG_Approver_General_Approve"/> 
+         <class name="com.EBMR_ConfigurationMaster.TC_1_DG__Initiator_ProcessInstruction_Initiate"/>
+         <class name="com.EBMR_ConfigurationMaster.TC_1DG_Approver_processInstruction_Return"/>
+         <class name="com.EBMR_ConfigurationMaster.TC_1_DG_Initiator_ProcessInstruction_ReInitiate"/>
+         <class name="com.EBMR_ConfigurationMaster.TC_1DG_Approver_ProcessInstruction_Approve"/>
+         <class name="com.EBMR_ConfigurationMaster.TC_2_WG_Initiator_ProcessInstruction_Initiate"/>
+         <class name="com.EBMR_ConfigurationMaster.TC_2_WG_Approver_ProcessInstruction_Return"/>
+         <class name="com.EBMR_ConfigurationMaster.TC_2_WG_Initiator_ProcessInstruction_ReInitiate"/>
+         <class name="com.EBMR_ConfigurationMaster.TC_2_WG_Approver_ProcessInstruction_Approve"/>
+         <class name="com.EBMR_ConfigurationMaster.TC_1_DG_Initiator_BatchFormula_Initiate"/>
+         <class name="com.EBMR_ConfigurationMaster.TC_1_DG_Approver_BatchFormula_Return"/>
+         <class name="com.EBMR_ConfigurationMaster.TC_1_DG_BatchFormula_ReInitiate"/>
+         <class name="com.EBMR_ConfigurationMaster.TC_1_DG_Approver_BatchFormula_Approve"/>
+         <class name="com.EBMR_ConfigurationMaster.TC_2_WG_Initiator_BatchFormula_Initiate"/>
+         <class name="com.EBMR_ConfigurationMaster.TC_2_WG_BatchFormula_Return"/>
+         <class name="com.EBMR_ConfigurationMaster.TC_2_WG_BatchFormula_ReInitiate"/>
+         <class name="com.EBMR_ConfigurationMaster.TC_2_WG_Approver_BatchFormula_Approve"/>
+         		</classes>
+		</test> <!-- Test -->
+		</suite> <!-- Suite -->
