@@ -61,6 +61,10 @@ public class Mainpageclass {
 		
 	driver.findElement(By.xpath("//*[@formcontrolname='LoginId']")).sendKeys(login);
 	Thread.sleep(200);
+	System.out.println("user clicked PD Initaitor");
+	System.out.println("user clicked PD Initaitor");
+	System.out.println("user clicked PD Initaitor");
+
 	driver.findElement(By.xpath("//*[@formcontrolname='Password']")).sendKeys(password);
 	Thread.sleep(200);
 	driver.findElement(By.xpath("//*[contains (text(),'Login')]")).click();
