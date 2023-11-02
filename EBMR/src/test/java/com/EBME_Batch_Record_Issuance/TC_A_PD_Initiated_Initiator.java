@@ -22,6 +22,8 @@ public class TC_A_PD_Initiated_Initiator extends Mainpageclass {
 		
 		driver.findElement(By.xpath("(//*[contains (text(),'05')])[2]")).click();Thread.sleep(2000);
 		System.out.println("user clicked PD Initaitor");
+		System.out.println("user clicked PD Initaitor");
+		System.out.println("user clicked PD Initaitor");
 		driver.findElement(By.xpath("//*[@type='radio']")).click();Thread.sleep(2000);
 		System.out.println("user clicked  Initaitor");
 		driver.findElement(By.xpath("//*[contains (text(),'--select--')]")).sendKeys();Thread.sleep(2000);
